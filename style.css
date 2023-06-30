@@ -23,14 +23,6 @@
     margin-left: 10px;
   }
 }
-
-/* .links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 5px;
-} */
-
 .links ul li {
   padding-left: 70px;
   display: inline-block;
@@ -46,7 +38,7 @@
   padding: 5px 5px;
 }
 #intro {
-  background-image: url("/images/5.jpeg");
+  background-image: url("./images/5.jpeg");
   width: 100%;
   object-fit: cover;
   /* background-repeat: no-repeat; */
@@ -257,16 +249,20 @@ i {
 .title-5 h1 {
   margin-left: 20px;
 }
-/* .location {
+.location {
   display: flex;
   flex-direction: column;
-} */
+  margin: 0;
+}
 .location-one {
   display: flex;
-  width: 10px;
+  /* width: 10px; */
 }
 .more p {
-  padding-top: 17px;
+  padding-top: 20px;
+}
+.more {
+  margin-top: 0%;
 }
 .title-6 h1 {
   margin-left: 20px;
@@ -275,13 +271,11 @@ i {
 .two {
   margin-top: 70px;
   margin-left: 300px;
-  /* border-style: dashed; */
   padding-top: 5px;
   padding-right: 100px;
   align-items: center;
 }
 .table {
-  /* border-style: dashed; */
   display: flex;
   justify-content: space-between;
   gap: 80px;
@@ -290,7 +284,6 @@ i {
 .labels {
   padding-top: 5px;
   padding-left: 0px;
-  /* border-style: dashed; */
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -383,7 +376,6 @@ input {
 #footerss {
   padding-bottom: 20px;
   background-color: #233c53;
-  /* border: 1px solid white; */
   border-top: 1px solid white;
 }
 #footerss p {
