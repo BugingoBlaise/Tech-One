@@ -245,6 +245,7 @@ i {
 }
 .one {
   margin: 50px 50px;
+  /* padding: 0; */
 }
 .title-5 h1 {
   margin-left: 20px;
@@ -288,8 +289,11 @@ i {
   flex-direction: column;
   gap: 6px;
 }
-input {
+input,
+textarea {
   padding: 5px 0;
+  outline: 0;
+  border: 20%;
 }
 .label-two {
   display: flex;
